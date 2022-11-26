@@ -23,7 +23,7 @@ def ws_aa(procesos,mesi,anoi,mesf,anof,modo,ruta):
                         descarga(proceso,mes,anno,ruta)
             else:
                 for mes in range(mesi,mesf+1):
-                        descarga(proceso,mes,anno,ruta)
+                        descarga(proceso,mes,anoi,ruta)
     else:
         for  proceso in procesos:
             descarga(proceso,mesi,anoi,ruta)
